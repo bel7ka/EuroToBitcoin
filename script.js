@@ -5,7 +5,7 @@ function convertir() {
     let taux = 77600;
 
     // BUG : la formule est incorrecte
-    let bircoin = euro / taux;
+    let bitcoin = euro / taux;
 
     document.getElementById("resultat").textContent = 
         euro + " € = " + bitcoin + " BTC ";
